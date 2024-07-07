@@ -4,7 +4,7 @@
 Welcome to the **Discovering SwiftUI** repository. This repository is dedicated to hosting example projects from the [HackingWithSwift SwiftUI courses](https://www.hackingwithswift.com/100/swiftui). As I continue to learn and master SwiftUI, I'll be adding various projects here to showcase different aspects and capabilities of SwiftUI.
 
 ## 🌟 Projects (planned)
-This repository will be continuously updated with new projects as I progress through the HackingWithSwift SwiftUI courses. The projects will demonstrate various aspects and capabilities of SwiftUI, including but not limited to:
+This repository will be continuously updated with new projects as I progress through the HackingWithSwift SwiftUI courses.
 * **Project 1**: [WeSplit](https://www.hackingwithswift.com/books/ios-swiftui/wesplit-introduction)
 * **Project 2**: [GuessTheFlag]( https://www.hackingwithswift.com/books/ios-swiftui/guess-the-flag-introduction)
 
