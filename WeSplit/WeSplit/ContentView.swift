@@ -20,6 +20,7 @@ struct ContentView: View {
         static let checkAmount = "Total Check Amount"
         static let percentageQuestion = "How much percentage do you tip?"
         static let amountPerPerson = "Amount Per Person"
+        static let currency = Locale.current.identifier
     }
     
     // MARK: - Variables
@@ -47,7 +48,7 @@ struct ContentView: View {
         NavigationView {
             Form {
                 Section {
-                    TextField(Constants.amountText, value: $checkAmount, format: .currency(code: Locale.current.identifier))
+                    TextField(Constants.amountText, value: $checkAmount, format: .currency(code: Constants.currency))
                         .keyboardType(.numberPad)
                         .focused($amountIsFocused)
                     
@@ -67,12 +68,12 @@ struct ContentView: View {
                 }
                 
                 Section(header: Text(Constants.checkAmount)) {
-                    Text(totalCheckAmount, format: .currency(code: Locale.current.identifier))
+                    Text(totalCheckAmount, format: .currency(code: Constants.currency))
                         .foregroundColor(tipPercentage == 0 ? .red : .black)
                 }
                 
                 Section(header: Text(Constants.amountPerPerson)) {
-                    Text(totalPerPerson, format: .currency(code: Locale.current.identifier))
+                    Text(totalPerPerson, format: .currency(code: Constants.currency))
                 }
             }
             
