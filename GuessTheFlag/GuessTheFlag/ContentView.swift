@@ -10,33 +10,43 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        VStack(spacing: 20) {
-            Text("Hello, world!")
-            Text("This is inside a stack")
-        }
-        
-        VStack(alignment: .leading) {
-            Text("Hello, world!")
-            Text("This is inside a stack")
-        }
-        
-        HStack(spacing: 20) {
-            Text("Hello, world!")
-            Text("This is inside a stack")
-        }
-        
-        VStack {
-            Text("First")
-            Text("Second")
-            Text("Third")
-            Spacer()
-            Spacer()
+        ZStack {
+            Text("Your content - 1")
         }
         
         ZStack {
-            Text("Hello, world!")
-            Text("This is inside a stack")
+            Text("Your content - 2")
         }
+        .background(.pink)
+        
+        ZStack {
+            Text("Your content -3")
+                .background(.blue)
+        }
+        
+        ZStack {
+            Color.red
+            Text("Your content - 4")
+        }
+        
+        Color.yellow
+            .frame(width: 200, height: 200)
+        
+        Color.gray
+            .frame(minWidth: 200, maxWidth: .infinity, maxHeight: 200)
+        
+        ZStack {
+            VStack(spacing: 0) {
+                Color.red
+                Color.blue
+            }
+
+            Text("Your content - 5")
+                .foregroundStyle(.secondary)
+                .padding(10)
+                .background(.ultraThinMaterial)
+        }
+        .ignoresSafeArea()
     }
 }
 
