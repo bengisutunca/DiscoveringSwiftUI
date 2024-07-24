@@ -32,6 +32,7 @@ struct ContentView: View {
     @State private var showingScore: Bool = false
     @State private var scoreTitle: String = ""
     @State private var score: Int = 0
+    @State private var questionNumber: Int = 1
 
     var body: some View {
         ZStack {
@@ -74,7 +75,7 @@ struct ContentView: View {
                             flagTapped(number)
                         } label: {
                             Image(countries[number])
-                                .resizable() // Ensure images resize properly
+                                .resizable()
                                 .scaledToFit()
                                 .frame(width: 100, height: 60)
                                 .clipShape(Capsule())
@@ -98,9 +99,9 @@ struct ContentView: View {
             .padding()
         }
         .alert(scoreTitle, isPresented: $showingScore) {
-            Button("Continue", action: askQuestion)
+            Button(questionNumber == 8 ? "Restart" : "Continue", action: askQuestion)
         } message: {
-            Text("Your score is \(score)")
+            Text(questionNumber == 8 ? "Your final score is \(score) out of 8." : "Your score is \(score)")
         }
     }
 
@@ -116,6 +117,18 @@ struct ContentView: View {
     }
 
     func askQuestion() {
+        if questionNumber == 8 {
+            restartGame()
+        } else {
+            questionNumber += 1
+            countries.shuffle()
+            correctAnswer = Int.random(in: 0...2)
+        }
+    }
+
+    func restartGame() {
+        score = 0
+        questionNumber = 1
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
     }
