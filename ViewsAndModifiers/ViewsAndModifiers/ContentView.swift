@@ -8,20 +8,43 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var useRedText = false
-
+    
     var body: some View {
-        if useRedText {
-            Button("Hello World") {
-                useRedText.toggle()
-            }
-            .foregroundStyle(.red)
-        } else {
-            Button("Hello World") {
-                useRedText.toggle()
-            }
-            .foregroundStyle(.blue)
+        
+        VStack {
+            Text("Gryffindor")
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
         }
+        .font(.title)
+
+        VStack {
+            Text("Gryffindor")
+                .font(.largeTitle)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .font(.title)
+
+        VStack {
+            Text("Gryffindor")
+                .font(.largeTitle)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .font(.title)
+        
+        VStack {
+            Text("Gryffindor")
+                .blur(radius: 0)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .blur(radius: 5)
     }
 }
 
