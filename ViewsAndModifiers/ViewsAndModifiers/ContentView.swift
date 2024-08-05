@@ -8,45 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     var body: some View {
-        
-        VStack {
-            Text("Gryffindor")
-            Text("Hufflepuff")
-            Text("Ravenclaw")
-            Text("Slytherin")
+        VStack(spacing: 10) {
+            CapsuleText(text: "First")
+                .foregroundStyle(.white)
+            CapsuleText(text: "Second")
+                .foregroundStyle(.yellow)
         }
-        .font(.title)
-
-        VStack {
-            Text("Gryffindor")
-                .font(.largeTitle)
-            Text("Hufflepuff")
-            Text("Ravenclaw")
-            Text("Slytherin")
-        }
-        .font(.title)
-
-        VStack {
-            Text("Gryffindor")
-                .font(.largeTitle)
-            Text("Hufflepuff")
-            Text("Ravenclaw")
-            Text("Slytherin")
-        }
-        .font(.title)
-        
-        VStack {
-            Text("Gryffindor")
-                .blur(radius: 0)
-            Text("Hufflepuff")
-            Text("Ravenclaw")
-            Text("Slytherin")
-        }
-        .blur(radius: 5)
     }
 }
+
+struct CapsuleText: View {
+    var text: String
+
+    var body: some View {
+        Text(text)
+            .font(.largeTitle)
+            .padding()
+            .foregroundStyle(.white)
+            .background(.blue)
+            .clipShape(.capsule)
+    }
+}
+
 
 #Preview {
     ContentView()
