@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Word Scramble
+//  WordScramble
 //
 //  Created by Bengi Tunca on 20.02.2025.
 //

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		18F440FD2D66825100F7E8F2 /* Word Scramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Scramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F441172D6682B500F7E8F2 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18F440FF2D66825100F7E8F2 /* Word Scramble */ = {
+		18F441192D6682B500F7E8F2 /* WordScramble */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Word Scramble";
+			path = WordScramble;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18F440FA2D66825100F7E8F2 /* Frameworks */ = {
+		18F441142D6682B500F7E8F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18F440F42D66825100F7E8F2 = {
+		18F4410E2D6682B500F7E8F2 = {
 			isa = PBXGroup;
 			children = (
-				18F440FF2D66825100F7E8F2 /* Word Scramble */,
-				18F440FE2D66825100F7E8F2 /* Products */,
+				18F441192D6682B500F7E8F2 /* WordScramble */,
+				18F441182D6682B500F7E8F2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18F440FE2D66825100F7E8F2 /* Products */ = {
+		18F441182D6682B500F7E8F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18F440FD2D66825100F7E8F2 /* Word Scramble.app */,
+				18F441172D6682B500F7E8F2 /* WordScramble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18F440FC2D66825100F7E8F2 /* Word Scramble */ = {
+		18F441162D6682B500F7E8F2 /* WordScramble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F4410B2D66825200F7E8F2 /* Build configuration list for PBXNativeTarget "Word Scramble" */;
+			buildConfigurationList = 18F441252D6682B600F7E8F2 /* Build configuration list for PBXNativeTarget "WordScramble" */;
 			buildPhases = (
-				18F440F92D66825100F7E8F2 /* Sources */,
-				18F440FA2D66825100F7E8F2 /* Frameworks */,
-				18F440FB2D66825100F7E8F2 /* Resources */,
+				18F441132D6682B500F7E8F2 /* Sources */,
+				18F441142D6682B500F7E8F2 /* Frameworks */,
+				18F441152D6682B500F7E8F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18F440FF2D66825100F7E8F2 /* Word Scramble */,
+				18F441192D6682B500F7E8F2 /* WordScramble */,
 			);
-			name = "Word Scramble";
+			name = WordScramble;
 			packageProductDependencies = (
 			);
-			productName = "Word Scramble";
-			productReference = 18F440FD2D66825100F7E8F2 /* Word Scramble.app */;
+			productName = WordScramble;
+			productReference = 18F441172D6682B500F7E8F2 /* WordScramble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18F440F52D66825100F7E8F2 /* Project object */ = {
+		18F4410F2D6682B500F7E8F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					18F440FC2D66825100F7E8F2 = {
+					18F441162D6682B500F7E8F2 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 18F440F82D66825100F7E8F2 /* Build configuration list for PBXProject "Word Scramble" */;
+			buildConfigurationList = 18F441122D6682B500F7E8F2 /* Build configuration list for PBXProject "WordScramble" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 18F440F42D66825100F7E8F2;
+			mainGroup = 18F4410E2D6682B500F7E8F2;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 18F440FE2D66825100F7E8F2 /* Products */;
+			productRefGroup = 18F441182D6682B500F7E8F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18F440FC2D66825100F7E8F2 /* Word Scramble */,
+				18F441162D6682B500F7E8F2 /* WordScramble */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18F440FB2D66825100F7E8F2 /* Resources */ = {
+		18F441152D6682B500F7E8F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18F440F92D66825100F7E8F2 /* Sources */ = {
+		18F441132D6682B500F7E8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18F441092D66825200F7E8F2 /* Debug */ = {
+		18F441232D6682B600F7E8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		18F4410A2D66825200F7E8F2 /* Release */ = {
+		18F441242D6682B600F7E8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,14 +244,14 @@
 			};
 			name = Release;
 		};
-		18F4410C2D66825200F7E8F2 /* Debug */ = {
+		18F441262D6682B600F7E8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Word Scramble/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = K62576AYUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -265,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tunca.Word-Scramble";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tunca.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -273,14 +273,14 @@
 			};
 			name = Debug;
 		};
-		18F4410D2D66825200F7E8F2 /* Release */ = {
+		18F441272D6682B600F7E8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Word Scramble/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = K62576AYUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tunca.Word-Scramble";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tunca.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18F440F82D66825100F7E8F2 /* Build configuration list for PBXProject "Word Scramble" */ = {
+		18F441122D6682B500F7E8F2 /* Build configuration list for PBXProject "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F441092D66825200F7E8F2 /* Debug */,
-				18F4410A2D66825200F7E8F2 /* Release */,
+				18F441232D6682B600F7E8F2 /* Debug */,
+				18F441242D6682B600F7E8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18F4410B2D66825200F7E8F2 /* Build configuration list for PBXNativeTarget "Word Scramble" */ = {
+		18F441252D6682B600F7E8F2 /* Build configuration list for PBXNativeTarget "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F4410C2D66825200F7E8F2 /* Debug */,
-				18F4410D2D66825200F7E8F2 /* Release */,
+				18F441262D6682B600F7E8F2 /* Debug */,
+				18F441272D6682B600F7E8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18F440F52D66825100F7E8F2 /* Project object */;
+	rootObject = 18F4410F2D6682B500F7E8F2 /* Project object */;
 }
