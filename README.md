@@ -8,7 +8,8 @@ This repository will be continuously updated with new projects as I progress thr
 * **Project 1**: [WeSplit](https://www.hackingwithswift.com/books/ios-swiftui/wesplit-introduction) 
 * **Project 2**: [GuessTheFlag](https://www.hackingwithswift.com/books/ios-swiftui/guess-the-flag-introduction)
 * **Project 3**: [ViewsAndModifiers](https://www.hackingwithswift.com/books/ios-swiftui/views-and-modifiers-introduction)
-* **Project 4**: [BetterRest](https://www.hackingwithswift.com/books/ios-swiftui/betterrest-introduction) 
+* **Project 4**: [BetterRest](https://www.hackingwithswift.com/books/ios-swiftui/betterrest-introduction)
+* **Project 5**: [WordScramble](https://www.hackingwithswift.com/books/ios-swiftui/word-scramble-introduction)
 
 ## 🎯 Purpose
 
