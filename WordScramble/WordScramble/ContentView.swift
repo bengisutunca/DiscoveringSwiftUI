@@ -8,41 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    let people = ["Finn", "Leia", "Luke", "Rey"]
-    
+
     var body: some View {
-        
-        List {
-            Text("Hello World")
-            Text("Hello World")
-            Text("Hello World")
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello World!")
         }
-        
-        List {
-            ForEach(0..<5) {
-                Text("Dynamic row \($0)")
+        .padding()
+    }
+    
+    func testBundles() {
+        if let fileURL = Bundle.main.url(forResource: "some file", withExtension: "txt") {
+            /// found the file in the bundle.
+            if let fileContents = try? String(contentsOf: fileURL) {
+                /// loaded the file into string.
             }
         }
-        
-        List {
-            Text("Static row 1")
-            Text("Static row 2")
-            
-            ForEach(0..<5) {
-                Text("Dynamic row \($0)")
-            }
-            
-            Text("Static row 3")
-            Text("Static row 4")
-        }.listStyle(.grouped)
-        
-        List {
-            Text("Static Row")
-            ForEach(people, id: \.self) {
-                Text($0)
-            }
-            Text("Static Row")
-        }.listStyle(.inset)
     }
 }
 
